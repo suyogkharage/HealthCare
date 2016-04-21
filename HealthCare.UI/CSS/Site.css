@@ -1,0 +1,270 @@
+﻿body {
+}
+
+.circle {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px; 
+    border:1px solid #4dd2ff ;
+    background-color:white;
+    padding-left: 0px;
+    padding-top: 40px;
+    color: #4dd2ff;
+    margin-left:100px;
+    margin-top:-50px;
+   position:absolute;
+   	/* width and height can be anything, as long as they're equal */
+}
+
+
+.block{
+    width:300px;
+    height:300px;
+    /*position:absolute;*/
+ }
+
+.color-4dd2ff{
+    color:#4dd2ff;
+}
+.bgcolor-lightgrey{
+    background-color:#e6e6e6;
+}
+
+.padding-left-10{
+   padding-left:10px;
+}
+
+.padding-left-20{
+   padding-left:20px;
+}
+
+.margin-left-10{
+    margin-left:10px;
+}
+
+.margin-top-10{
+    margin-top:10px;
+}
+
+.margin-top-60{
+    margin-top:60px;
+}
+.margin-top-200{
+    margin-top: 200px;
+}
+
+.margin-bottom-10{
+    margin-bottom:10px;
+}
+
+.margin-top-100
+{
+    margin-top:100px;
+}
+
+.padding-top-75{  
+    padding-top: 75px;
+}
+.btndiv{
+    display:inline-block;
+    padding:8px 30px;
+    border-radius:7px;
+    background-color:white;
+    text-align:center;
+    /*border:1px solid #4dd2ff;*/
+    border-color:white;
+    color:#4dd2ff;
+}
+
+.btndiv:hover{
+    background-color:#4dd2ff;
+    color:white;
+    font:bold;
+}
+
+.btn{
+    font-size:9px;
+}
+
+.form-control{
+    width:auto !important;
+}
+
+.margin-top-30{
+    margin-top:80px;
+}
+
+.padding-top-30{
+    padding-top: 30px !important;
+
+}
+
+.padding-bottom-5{
+    padding-bottom:5px;           
+}
+
+/*.padding-bottom-15{
+    padding-bottom:15px;           
+}*/
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.img-responsive {
+    width:100% !important;
+    height:auto;
+    max-height: 500px !important;
+}
+
+.icon-bar {
+    background-color: black !important;
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   /*opacity:0.7;*/
+}
+
+.img-text { 
+   position: absolute; 
+   top: 30px;
+   left: 500px; 
+   /*width: 100%;*/ 
+   color:white;
+}
+
+.img-text-p { 
+   position: absolute; 
+   top: 130px;
+   left: 400px; 
+   /*width: 100%; 
+   color:white;*/
+}
+
+.box{ 
+   position: absolute; 
+   top: 450px;
+   /*left: 400px;*/ 
+   align-content:center;
+   height:200px;
+   width:500px;
+   /*opacity:0.8;*/
+   /*background-color:#80b3ff;*/
+   /*width: 100%; 
+   color:white;*/
+}
+
+.form-control{
+    height:25px !important;
+}
+
+.font-size-30{
+    font-size:30px;
+}
+
+.font-size-20{
+    font-size:20px;
+}
+
+.max-width-500{
+    max-width:500px;
+}
+
+
+.color-green{
+    color:greenyellow !important;
+}
+
+hr{
+    margin:0px;
+}
+
+.bgcolor-80b3ff{
+    background-color:#4dd2ff;
+}
+
+.text-align-center{
+    text-align:center;
+}
+
+ .padding-top-5{
+padding-top: 5px;
+
+ }
+
+.padding-right-140{
+    padding-right: 140px;
+    }
+
+.max-width-900{
+    max-width:900px !important;
+}
+
+.navbar-fixed-top{
+    background-color: white;
+}
+.padding-top-100{
+    padding-top:100px;
+}
+
+.padding-left-100{
+    padding-left: 100px;
+}
+
+.padding-left-70px{
+    padding-left: 70px;
+}
+.question-mark{
+    font-size:10px;
+    color:red;
+}
+.question-mark:hover{
+    
+    background-color:orange;
+}
+
+
+/*media*/
+@media (max-width: 992px) {
+    .mobile-left-10{
+         left: 10px; 
+    }
+}
+
+@media (max-width: 767px) {
+    .max-width-500{
+         min-width:100px;
+       
+    }
+    .font-size-10{
+    font-size:20px;
+    text-align:left;
+    }
+
+    /*.moblie-margin-top-280{
+        margin-top:280px;
+    }
+
+    .mobile-margin-top-350{
+            margin-top: 350px;
+    }*/
+    .mobile-margin-top-48{
+        margin-top: 48px;
+    }
+    
+    .mobile-padding-left-25{
+        padding-left:25px;
+    }
+    .mobile-margin-top-290{
+        margin-top: 290px;
+    }
+
+    .mobile-margin-top-100 {
+        margin-top: 100px;
+    }
+}
+
+

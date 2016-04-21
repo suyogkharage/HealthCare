@@ -1,0 +1,25 @@
+﻿<md-dialog aria-label="Mango (Fruit)" ng-cloak>
+    <form ng-controller="myCtrl">
+        <md-toolbar>
+            <h2>Register</h2>
+        </md-toolbar>
+        <md-dialog-content>
+            <ng-form>
+                <div class="form-group padding-left-20">
+                    <label for="FirstName"> First Name:</label><input type="text" class="form-control" name="FirstNameText" />
+                    <label for="LastName">Last Name:</label><input type="text" class="form-control" name="LastNameText" />
+                    <label for="MobileNumber">Mobile Number:</label><input type="number" class="form-control" name="MobileNumberText" />
+                    <label for="Age">Age:</label><input type="number" class="form-control" name="AgeText" />
+                    <label for="Gender">Gender:</label><input type="text" class="form-control" name="GenderText" />
+                    <label for="email">Email:</label><input type="email" class="form-control" name="emailText" />
+                    <label for="Password">Password:</label><input type="password" class="form-control" name="PasswordText" />
+                    <label for="Date">Date:</label><input type="date" class="form-control" name="dateText" />
+                    <button  class="form-control" ng-click="myForm.submitTheForm()">Register</button>
+                </div>
+            </ng-form>
+
+
+        </md-dialog-content>
+        
+    </form>
+</md-dialog>
